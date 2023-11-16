@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/custom_items"
+    android:padding="16dp"
+    android:layout_margin="16dp"
+    android:layout_marginBottom="10dp"
+    >
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tvgender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tvbirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birthday"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tvrarity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rarity"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tvvision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vision"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tvweapon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weapon"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp"
+        />
+
+</LinearLayout>
